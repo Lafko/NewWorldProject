@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="res\exe">
+      <UniqueIdentifier>{2822125c-6dcc-4c35-950d-1f2f25330e56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res\factions">
+      <UniqueIdentifier>{349f1107-607d-4c76-b23e-18c3e4c84aa8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="vector.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="driver.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="dx_renderer.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="colors.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="offests.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="function.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>res</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc">
+      <Filter>res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\x64\Release\resource\factions\covenant.png">
+      <Filter>res\factions</Filter>
+    </Image>
+    <Image Include="..\x64\Release\resource\factions\marauders.png">
+      <Filter>res\factions</Filter>
+    </Image>
+    <Image Include="..\x64\Release\resource\factions\syndicate.png">
+      <Filter>res\factions</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
